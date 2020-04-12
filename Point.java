@@ -1,5 +1,3 @@
-import java.util.ArrayList;
-
 class Point {
 	String id;
 	double x,y;
@@ -52,18 +50,7 @@ public double getY()
 		//TODO
 		System.out.println(id + ": "+ x + " " + y);
 	}
-}
 
-class Canvas {
-	
-List<Points> list = new ArrayList<>();
 
-public Canvas (List<Points> list)
-{
-	this.list=list;
-}
-public void addPoint (Point NewPoint)
-{
-	list.add(NewPoint);
-}
+
 }
